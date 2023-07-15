@@ -45,7 +45,31 @@ output_list = []
 
 # Constructing output list
 # using list comprehension
-list_using_comp = [var**2 for var in range(1, 10)]
+# list_using_comp = [var**2 for var in range(1, 10)]
   
-print("Output List using list comprehension:", 
-                              list_using_comp)
+# print("Output List using list comprehension:", 
+#                               list_using_comp)
+
+
+
+
+  
+# input_list = [1,2,3,4,5,6,7]
+  
+# dict_using_comp = {var:var ** 3 for var in input_list if var % 2 != 0}
+  
+# print("Output Dictionary using dictionary comprehensions:",
+#                                            dict_using_comp)
+
+
+# state = ['Gujarat', 'Maharashtra', 'Rajasthan']
+# capital = ['Gandhinagar', 'Mumbai', 'Jaipur']
+  
+# output_dict = {}
+  
+# # Using loop for constructing output dictionary
+# for (key, value) in zip(state, capital):
+#     output_dict[key] = value
+  
+# print("Output Dictionary using for loop:",
+#                               output_dict)
