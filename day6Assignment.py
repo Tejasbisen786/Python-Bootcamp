@@ -14,7 +14,53 @@
 #             obj1.bioData
 
 
+class makeAdd:
+  def __init__(self,num,num1):
+    self.num=num
+    self.num1=num1
 
+  def add(self):
+    print("Addition is:",self.num+self.num1)
+
+    n1=makeAdd(12,13)
+    n1.add()
+
+# class Doadd():
+#     def __init__(self,num,num1):
+#         self.num=num
+#         self.num1=num1
+
+#         def doAddition(self):
+#             print("addition is : ", self.num + self.num1)
+        
+# n1=Doadd(12,45)
+# n1.doAddition()
+
+#         class calculator():
+#   def __init__(self,x,y):
+#     self.x=x
+#     self.y=y
+
+#   def add(self):
+#     print("Sum :",self.x+self.y)
+
+#   def subtraction(self):
+#     print("Subtraction :",self.x-self.y)  
+
+#   def multiplication(self):
+#     print("Multiplication :",self.x*self.y)
+
+#   def division(self):
+#     print("Division :",self.x/self.y)  
+# #x=int(input("Enter first number : "))
+# #y=int(input("Enter second number : "))
+# #n1=calculator(x,y) # object 
+# n1=calculator(5,4) # object 
+
+# n1.add()
+# n1.subtraction()
+# n1.multiplication()
+# n1.division()
 
 
 # Calculator Program using Procedural Programming 
