@@ -64,3 +64,24 @@
 # print("Multiplication:",cal.Multy())
 
 # print("Division:",cal.divs())
+
+
+class Student:
+    def __init__(self):
+        self.name="Tejas"
+        self.id=100
+
+    def biodata(self):
+     print(f"The Name Of student Is: {self.name} with id : {self.id}")
+
+class StudDetails(Student):
+    def __init__(self):
+        super().__init__()
+        super().bioData()
+        self.language="Python"
+    def ProgramLang(self):
+     print(f"The Defualt laguage for {self.name} is {self.language}")
+
+    obj1=Student()
+    obj1.ProgramLang()
+    
