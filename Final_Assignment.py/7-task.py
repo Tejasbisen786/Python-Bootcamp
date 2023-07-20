@@ -27,7 +27,7 @@ class BankAccount:
 
 
 
-Crating Innstance for the class 
+# Crating Innstance for the class 
 
 account1 = BankAccount("98343395XX", "Tejas Bisen", 1000)
 print(account1.check_balance())

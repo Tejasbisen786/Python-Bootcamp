@@ -2,9 +2,6 @@
 
 import random
 
-
-
-
 def CheckResults(computer, user):
 
     if computer == user:
